@@ -1,0 +1,8 @@
+resource_group_name="rg-dev"
+location="Central US"
+service_plan_name="rc-plan-service"
+service_plan_sku_tier="Free"
+service_plan_sku_size="F1"
+app_name="api-conversao-rc"
+app_linux_fx_version="DOCKER|robsoncruz/api-conversao:v1"
+docker_registry_url="https://index.docker.io"
